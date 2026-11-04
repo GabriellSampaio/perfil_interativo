@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Irish Grinstead</title>
+    <link rel="stylesheet" href="../css/telaIrish-style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="navPrincipal">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#premiacoes">Premiações</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <div class="imgIrish">
+            <img src="../img/Irish.png" alt="Foto de Irish Grinstead">
+        </div>
+
+        <div class="txtInicio">
+            <h1>Irish Grinstead</h1>
+            <p class="subtitulo">Cantora do grupo 702</p>
+
+            <div class="txtBio">
+                <p>Integrante icônica do grupo de R&B dos anos 90, conhecida por suas harmonias vocais marcantes.</p>
+                <p>Deixou um legado inesquecível na música urbana mundial junto com suas irmãs e amigas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Biografia -->
+    <section id="biografia">
+        <h2>Sobre a Artista</h2>
+        <p>
+            Irish Beatrice Grinstead (1980–2023) foi uma cantora norte-americana de R&B, amplamente reconhecida como uma das
+            membras fundadoras do aclamado grupo feminino 702. Nascida em Houston, Texas, no dia 2 de junho de 1980, e
+            criada em Las Vegas, Nevada, sua voz e presença de palco ajudaram a moldar o som e a estética do R&B do
+            final dos anos 1990 e início dos anos 2000
+        </p>
+        <br>
+        <p>
+            A jornada musical de Irish começou em família. Na infância e início da adolescência, ela cantava ao lado de
+            sua irmã mais velha, LeMisha Grinstead, e de sua irmã gêmea fraterna, Orish Grinstead. Juntas com a amiga
+            Amelia Cruz, elas formaram inicialmente um grupo chamado Sweeter than Sugar em 1993.
+        </p>
+        <br>
+        <p>
+            O grupo foi descoberto pelo comediante Sinbad e, mais tarde, pelo cantor e produtor Michael Bivins (do New
+            Edition/Bell Biv DeVoe). Foi Bivins quem as rebatizou como 702, em homenagem ao código de área telefônico da
+            cidade de Las Vegas. Pouco depois, Kameelah Williams juntou-se ao grupo, definindo a formação em trio mais
+            famosa da banda (Irish, LeMisha e Kameelah)
+        </p>
+    </section>
+
+    <section id="premiacoes">
+        <h2>Premiações</h2>
+
+        <div class="botoes-premios">
+            <button class="btn-premio ativo" onclick="selecionarPremio(0)">1997 - Soul Train Album</button>
+            <button class="btn-premio" onclick="selecionarPremio(1)">Soul Train Hits</button>
+            <button class="btn-premio" onclick="selecionarPremio(2)">American Music Awards</button>
+        </div>
+
+        <div class="container-cards-premios">
+            <div class="premio-container ativo">
+                <img src="../img/premio1.png" alt="Prêmio Soul Train 1997">
+                <p><strong>Soul Train Lady of Soul Awards (1997):</strong> Venceram o prêmio de <em>Best R&B/Soul Album
+                        by a Group, Band or Duo</em> com o álbum de estreia <strong>No Doubt</strong>.</p>
+            </div>
+
+            <div class="premio-container">
+                <img src="../img/premio2.png" alt="Prêmio Soul Train Music">
+                <p><strong>Soul Train Music Awards:</strong> Indicadas e reconhecidas no cenário internacional por
+                    grandes sucessos das paradas, como os hits <strong>"Steelo"</strong> e <strong>"Where My Girls
+                        At?"</strong>.</p>
+            </div>
+
+            <div class="premio-container">
+                <img src="../img/premio3.jpg" alt="American Music Awards">
+                <p><strong>Indicações ao American Music Awards:</strong> O sucesso contínuo de seus projetos rendeu
+                    indicações expressivas e a consolidação definitiva do grupo na história do R&B dos anos 90.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="premiacoes">
+        <h2>Vídeo: You'll just never Know</h2>
+
+        <div class="video-container">
+            <video controls width="100%" class="meu-video">
+                <source src="../video/You'll just never Know.mp4" type="video/mp4">
+                O seu navegador não suporta a exibição deste vídeo.
+            </video>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria de Fotos</h2>
+        <div class="container-imagens">
+            <img src="../img/img1.jpeg" alt="Foto 1 de Irish">
+            <img src="../img/img2.webp" alt="Foto 2 de Irish">
+            <img src="../img/img3.webp" alt="Foto 3 de Irish">
+            <img src="../img/img4.avif" alt="Foto 4 de Irish">
+        </div>
+    </section>
+
+    <script src="../js/telaIrish.js"></script>
+</body>
+
+</html>

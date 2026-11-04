@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tela Inicial - Biografias</title>
+    <link rel="stylesheet" href="./css/telaInicial-style.css">
 </head>
 <body>
-    
+
+    <main class="principal">
+        <h1>Perfil Interativo</h1>
+        <p class="instrucao">Quer saber mais sobre elas? Clique em uma das fotos abaixo.</p>
+
+        <div id="containerBotoes">
+            <!-- Card da Artista (Irish Grinstead) -->
+            <a href="./html/telaIrish.html" class="card-perfil">
+                <div class="imagem-wrapper">
+                    <img src="./img/imgArtista.jpg" alt="Foto de Irish Grinstead">
+                </div>
+                <div class="info-card">
+                    <h2>Irish Grinstead</h2>
+                    <p>Cantora</p>
+                </div>
+            </a>
+
+            <!-- Card da Atleta (Padronizado com o mesmo estilo) -->
+            <a href="./html/telaAtleta.html" class="card-perfil">
+                <div class="imagem-wrapper">
+                    <img src="./img/imgAtleta.avif" alt="Foto da Atleta">
+                </div>
+                <div class="info-card">
+                    <h2>Nome da Atleta</h2>
+                    <p>Atleta</p>
+                </div>
+            </a>
+        </div>
+    </main>
+
 </body>
 </html>

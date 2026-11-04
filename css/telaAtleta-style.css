@@ -1,0 +1,70 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav ul{
+    font-size: 18px;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding-top: 30px;
+}
+
+#inicio{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.txtInicio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 150px;
+}
+
+.txtInicio h1{
+    font-size: 125px;
+    margin-bottom: 0;
+}
+
+.txtInicio p{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.txtBio p{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#inicio img{
+    padding-right: 150px;
+}
+
+#biografia{
+    background-color: gray;
+    width: 2015px;
+    height: 500px;
+}
+
+#biografia p{
+    text-align: center; 
+    font-size: 15px;
+}
+
+#galeria{
+    color: black; 
+    width: 300px;
+    height: 400px;  
+    display: flex;
+    gap: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+}

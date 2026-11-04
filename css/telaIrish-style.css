@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+    scroll-padding-top: 90px; 
+}
+
+body {
+    background-color: #282B26;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.799);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.imgIrish img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.txtInicio {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.txtInicio h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    line-height: 1.1;
+    color: #f1f1f1;
+}
+
+.txtInicio .subtitulo {
+    font-size: 1.8rem;
+    color: #b2bec3;
+    margin-bottom: 10px;
+}
+
+.txtBio p {
+    font-size: 1.1rem;
+    color: #dfe6e9;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+#biografia, #premiacoes {
+    background-color: #353b32;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#biografia h2, #premiacoes h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+#biografia p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #dcdde1;
+    text-align: center;
+}
+
+.botoes-premios {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.btn-premio {
+    background-color: #1e201d;
+    color: #ffffff;
+    border: 2px solid #353b32;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.btn-premio:hover {
+    background-color: #353b32;
+}
+
+.btn-premio.ativo {
+    background-color: #3498db;
+    border-color: #3498db;
+    font-weight: bold;
+}
+
+.premio-container {
+    display: none;
+    align-items: center;
+    gap: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.premio-container.ativo {
+    display: flex;
+}
+
+.premio-container img {
+    width: 100%;
+    max-width: 220px;
+    height: 160px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.premio-container p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #dfe6e9;
+}
+
+.premio-container img {
+    width: 100%;
+    max-width: 220px;
+    height: 160px;
+    border-radius: 8px;
+    object-fit: contain; 
+}
+
+#galeria {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 5%;
+    text-align: center;
+}
+
+#galeria h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #f1f1f1;
+}
+
+.container-imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#galeria img {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
