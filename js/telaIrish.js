@@ -1,6 +1,6 @@
-function selecionarPremio(indice) {
-    const cards = document.querySelectorAll('.premio-container');
-    const botoes = document.querySelectorAll('.btn-premio');
+function selecionarAno(indice) {
+    const cards = document.querySelectorAll('.linhaDoTempo-card');
+    const botoes = document.querySelectorAll('.btn-linhaTempo');
 
     cards.forEach(card => card.classList.remove('ativo'));
     botoes.forEach(botao => botao.classList.remove('ativo'));

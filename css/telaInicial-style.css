@@ -6,14 +6,15 @@
 }
 
 body {
-    background-color: #282B26;
-    color: #ffffff;
+    background-color: #0a0812;
+    color: #e2d9f3;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background: radial-gradient(circle at center, #170c2c 0%, #0a0812 100%);
 }
 
 .principal {
@@ -23,14 +24,16 @@ body {
 }
 
 .principal h1 {
-    font-size: 2.5rem;
+    font-size: 35px;
     margin-bottom: 10px;
-    color: #f1f1f1;
+    color: #ffffff;
+    font-weight: 800;
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
 }
 
 .instrucao {
-    font-size: 1.1rem;
-    color: #b2bec3;
+    font-size: 20px;
+    color: #c084fc;
     margin-bottom: 40px;
 }
 
@@ -42,22 +45,22 @@ body {
     flex-wrap: wrap; 
 }
 
-.card-perfil {
-    text-decoration: none;
-    background-color: #353b32;
+.cardPerfil {
+    background: rgba(30, 20, 50, 0.6);
     border-radius: 16px;
     overflow: hidden;
     width: 300px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
-.card-perfil:hover {
+.cardPerfil:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+    border-color: #ec4899;
+    box-shadow: 0 0 25px rgba(236, 72, 153, 0.5);
 }
 
-.imagem-wrapper img {
+.imagem img {
     width: 100%;
     height: 360px;
     object-fit: cover;
@@ -65,23 +68,25 @@ body {
     transition: opacity 0.3s ease;
 }
 
-.card-perfil:hover .imagem-wrapper img {
-    opacity: 0.85;
+.cardPerfil:hover .imagem img {
+    opacity: 0.9;
 }
 
-.info-card {
+.informacoes {
     padding: 20px;
     text-align: center;
 }
 
-.info-card h2 {
+.informacoes h2 {
     font-size: 1.4rem;
     color: #ffffff;
     margin-bottom: 5px;
 }
 
-.info-card p {
+.informacoes p {
     font-size: 1rem;
-    color: #3498db;
+    color: #ec4899;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
