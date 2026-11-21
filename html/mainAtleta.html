@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela do Atleta</title>
+    <link rel="stylesheet" href="../css/mainAtleta-style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <ul class="navPrincipal">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#sobre">Biografia</a></li>
+            <li><a href="#linhaTempo">Linha do tempo</a></li>
+            <li><a href="../html/outrosAtleta/netflix-atleta.html">Netflix</a></li>
+            <li><a href="../html/outrosAtleta/videoPlayer-atleta.html">Vídeo Player</a></li>
+        </ul>
+    </nav>
+
+    <!-- section sobre -->
+    <section id="sobre">
+
+        <div class="txtSobre">
+            <h1>Rayssa Leal</h1>
+            <p>skatista brasileira de Street Skate</p>
+
+            <div class="txtBreveBio">
+                <p>Uma menina que, desde os 7 anos de idade, vem impressionando o público com seu "talento" e já conquistou 27 títulos
+                    internacionais na carreira aos 18 anos.</p>
+            </div>
+        </div>
+
+        <img src="../img/imgRay.avif" width="1100" height="900">
+    </section>
+    
+    <!--section biografia-->
+    <section id="biografia">
+
+        <div class="txtBio">
+            <h2>Sua história</h2>
+
+            <p>Jhulia Rayssa Mendes Leal, conhecida como Rayssa Leal, nasceu em 4 de janeiro de 2008, em Imperatriz, no Maranhão. Seu
+                contato com o skate começou aos seis anos, quando ganhou seu primeiro equipamento. Desde pequena, demonstrava facilidade
+                e entusiasmo na realização de manobras, chamando a atenção para seu talento. Em 2015, aos sete anos, ganhou notoriedade
+                após Tony Hawk, uma das maiores lendas do skate, compartilhar um vídeo em que realizava uma manobra vestida de fada,
+                originando o apelido de “Fadinha do Skate”.</p>
+
+            <p>No mesmo ano, acompanhada de sua família, viajou de ônibus até Blumenau (SC) para participar do primeiro Campeonato
+                Brasileiro de Skate Street Mirim, no qual se tornou a primeira campeã brasileira da modalidade. A partir dessa conquista,
+                sua carreira ganhou impulso, levando-a a participar de importantes competições nacionais e internacionais. Em 2019, aos
+                11 anos, venceu a etapa de Los Angeles do Mundial de Skate Street, tornando-se a atleta mais jovem a conquistar uma etapa
+                da competição. Em 2020, também foi indicada ao Prêmio Laureus, considerado o Oscar do Esporte.</p>
+
+            <p>Em 2021, aos 13 anos, Rayssa representou o Brasil nos Jogos Olímpicos de Tóquio, ao lado de Letícia Bufoni e Pâmela Rosa.
+                Após avançar para a final do skate street feminino, conquistou a medalha de prata, tornando-se a mais jovem medalhista
+                olímpica brasileira.</p>
+
+            <p>Além da conquista olímpica, recebeu o prêmio internacional “Valores Olímpicos”, concedido pelo Comitê Olímpico Internacional
+                (COI), após ser a atleta mais votada pelo público, superando concorrentes como a ginasta americana Simone Biles. O
+                reconhecimento também contemplou uma premiação de R$ 50 mil destinada ao apoio de uma instituição social.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--section vídeo-->
+    <section id="video">
+
+        <h2>Vídeo - Sua trajetória no esporte</h2>
+
+        <div class="container-video">
+            <video controls width="100%" class="videoAtleta">
+                <source src="../video/entrevistaRay.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </section>
+
+
+    <!--section galeria-->
+    <section id="galeria">
+        
+        <h2>Galeria de Fotos</h2>
+
+        <div class="container-imagens">
+            <img src="../img/rayssa1.webp" alt="Foto 1 da Rayssa">
+            <img src="../img/rayssa2.webp" alt="Foto 2 da Rayssa">
+            <img src="../img/rayssa3.avif" alt="Foto 3 da Rayssa">
+            <img src="../img/rayssa4.webp" alt="Foto 4 da Rayssa">
+            <img src="../img/rayssa5.avif" alt="Foto 5 da Rayssa">
+            <img src="../img/rayssa6.jpg" alt="Foto 6 da Rayssa">
+            <img src="../img/rayssa7.jpg" alt="Foto 7 da Rayssa">
+            <img src="../img/rayssa8.webp" alt="Foto 8 da Rayssa">
+        </div>
+    </section>
+
+    <!--section curiosidade&conquistas-->
+    <section id="curiosidadesEconquistas">
+
+        <div class="container-imgCC">
+            <img src="../img/imgCC.jpg" width="100%" class="imgCC">
+        </div>
+
+        <div class="container-botoesEcards">
+            <div class="botoes-CC">
+                <button class="btn-CC ativo" onclick="selecionarBtnCC(0)">Curiosidades</button>
+                <button class="btn-CC" onclick="selecionarBtnCC(1)">Medalhas e Troféus</button>
+                <button class="btn-CC" onclick="selecionarBtnCC(2)">Prêmios</button>
+            </div>
+
+            <div class="container-cards-CC">
+
+                <div class="card-CC ativo">
+                    <span class="btnCCDestaque">Curiosidades</span>
+                    <ul>
+                        <li>Criou projetos sociais de incentivo às futuras gerações do skate brasileiro.</li>
+                        <li>Tem uma pista de skate particular no quintal de sua casa, que ganhou de presente ao completar 15 anos.</li>
+                        <li>Tem um skate personalizado em seu nome desde os 14 anos, desenvolvido pela marca April Skateboarding.</li>
+                        <li>Rayssa passou os Jogos Olímpicos de Paris (2024) com a companhia de uma pequena boneca de fada, fazendo
+                            referência ao seu famoso apelido.</li>
+                    </ul>
+                </div>
+
+                <div class="card-CC">
+                    <span class="btnCCDestaque">Medalhas e Troféus</span>
+                    <ul>
+                        <li>Jogos Olímpicos: <b>Prata</b>(2021) e <b>Bronze</b>(2024)</li>
+                        <li>Campeonato Mundial – World Skate: <b>Ouro</b> (2022 e 2024)</li>
+                        <li>Street League Skateboarding (SLS) – Super Crown: <b>Campeã</b> (2022, 2023, 2024 e 2025)</li>
+                        <li>X Games: <b>Ouro</b> (2022 e 2023)</li>
+                        <li>Jogos Pan-Americanos: <b>Ouro</b> (2023)</li>
+                        <li>STU – Rio de Janeiro: <b>Pentacampeã</b></li>
+                        <li>Etapas regulares da SLS: 11 <b>vitórias</b></li>
+                        <li>Campeonato Mundial de Skate Street: <b>Bronze</b>(2021) e <b>Prata</b>(2023)</li>
+                        <li>Skate Street dos World Skate Games: <b>Ouro</b> (2024)</li>
+                    </ul>
+                </div>
+
+                <div class="card-CC">
+                    <span class="btnCCDestaque">Prêmios</span>
+                    <ul>
+                        <li>Indicada ao Prêmio Laureus, na categoria Atleta de Ação do Ano</li>
+                        <li>Vencedora do Prêmio internacional “Valores Olímpicos”, tendo como concorrente a ginasta Simone Biles</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--section linha do tempo-->
+    <section id="linhaTempo">
+
+        <h2>Linha do Tempo</h2>
+
+        <div class="botoes-linhaTempo">
+            <button class="btn-linhaTempo ativo" onclick="selecionarAno(0)">2014</button>
+            <button class="btn-linhaTempo" onclick="selecionarAno(1)">2015</button>
+            <button class="btn-linhaTempo" onclick="selecionarAno(2)">2018</button>
+            <button class="btn-linhaTempo" onclick="selecionarAno(3)">2019</button>
+            <button class="btn-linhaTempo" onclick="selecionarAno(4)">2020-2026</button>
+            <button class="btn-linhaTempo" onclick="selecionarAno(5)">Dias atuais</button>
+        </div>
+
+
+        <div class="container-cards-linhaTempo">
+
+            <div class="card-linhaTempo">
+                <span class="anoDestaque">2014</span>
+                <h3>Primeiros passos no skate</h3>
+                <p>Aos 6 anos de idade, começou a andar de skate após ganhá-lo como presente.</p> 
+            </div>
+
+            <div class="card-linhaTempo">
+                <span class="anoDestaque">2015</span>
+                <h3>"A Fadinha do Skate" - Primeiro reconhecimento</h3>
+                <p>Aos 7 anos, viralizou na internet ao acertar uma manobra de skate fantasiada de fada.
+                O skatista norte-americano Tony Hawk compartilhou o vídeo, gerando repercussão internacional.
+                </p> 
+            </div>
+
+            <div class="card-linhaTempo">
+                <span class="anoDestaque">2018</span>
+                <h3>Início da carreira profissional</h3>
+                <p>Integrou a seleção brasileira de skate.</p>
+            </div>
+
+            <div class="card-linhaTempo">
+                <span class="anoDestaque">2019</span>
+                <h3>Primeira conquista</h3>
+                <p>Com apenas 11 anos de idade, subiu ao pódio na primeira etapa da Liga Mundial (SLS).</p>
+            </div>
+
+            <div class="card-linhaTempo">
+                <span class="anoDestaque">2020-2026</span>
+                <h3>Sequência consecutiva de conquistas</h3>
+                <p>Durante 5 anos, conquistou medalhas nos Jogos Olímpicos, Mundiais de Skate Street, SLS, X Games e
+                    Jogos Pan-Americanos, acumulando um total de 27 títulos internacionais na carreira</p>
+            </div>
+
+            <div class="card-linhaTempo">
+                <span class="anoDestaque">Dias atuais</span>
+                <h3>Agora, embaixadora global</h3>
+                <p>A atleta, com apenas 18 anos, torna-se embaixadora global dos Jogos Olímpicos da Juventude de Dakar 2026,
+                    reforçando sua verdadeira influência no esporte e seu papel como inspiração às novas gerações.
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+    
+    <script src="../js/telaAtleta.js"></script>
+</body>
+</html>
